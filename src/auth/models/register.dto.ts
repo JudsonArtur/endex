@@ -22,7 +22,9 @@
 
     @IsNotEmpty()
     entry_date : string;
+
     @IsNotEmpty()
     password_confirm : string;
+    
 
   }

@@ -38,7 +38,7 @@ let AuthController = class AuthController {
             phone: body.phone,
             password: hashed,
             entry_date: body.entry_date,
-            role_id: { id: 1 }
+            role_id: { id: '1' }
         });
     }
     async login(email, password, response) {
